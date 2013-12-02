@@ -1,0 +1,25 @@
+div.banana {
+
+	content: url("../Images/banana.png");
+	position: absolute;
+	margin-top: -1452px;
+	margin-left: -15px;
+
+}
+
+div.flecha {
+	content: url("../Images/img_flecha.png");
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.logo {
+	content: url("../Images/img_logo_xl.png");
+	position: aboslute;
+	margin-top: -1391px;
+	max-width: 60%; 
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
