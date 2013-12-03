@@ -1,25 +1,40 @@
 div.banana {
 
 	content: url("../Images/banana.png");
-	position: absolute;
+	position: static;
 	margin-top: -1452px;
 	margin-left: -15px;
 
 }
 
+div.flecha:hover { color: red; }
+div.flecha:active { color: blue; }
+
+
 div.flecha {
 	content: url("../Images/img_flecha.png");
+	position: relative;
+	max-width: 100%;
+	margin-top: -860px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
+
+
 
 div.logo {
 	content: url("../Images/img_logo_xl.png");
-	position: aboslute;
-	margin-top: -1391px;
+	position: relative;
+	margin-top: -548px;
 	max-width: 60%; 
 	margin-right: auto;
 	margin-left: auto;
 	
 
 }
+
+body html {
+	overflow-y: scroll; 
+	overflow-x: hidden;
+	}
