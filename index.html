@@ -2,12 +2,29 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Monkey building</title>
+<title>Monkey building (contruccion)</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="javascript/text" href="js/actions.js">
-</head>
+  <script src="js/jquery.js"></script>
+  </head>
 <body>
-<div class = "banana"> </div>
-<div class = "flecha" onclick = "moveimage()"> </div>
-<div class = "logo"> </div>
+	<div class = "banana"> </div>
+	<div class = "flecha"> </div>
+	<div class = "logo"> </div>
+	<div class = "separador1"> </div>
+	<div class = "separador2"> </div>
+	<div class = "logo2"> </div>
+		<script>
+			$ (".flecha").click(function(){
+				$(".separador2").animate({
+
+				});
+
+				$(".banana").animate({
+					marginTop: "-2700px",
+					marginLeft: "-750px"
+			},3000, function(){
+				});
+			});
+
+		</script>
 </body>
